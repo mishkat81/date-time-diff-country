@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a,a:hover, a:active,a:focus{
+    text-decoration: none;
+    color: #000000;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    font-weight: normal;
+}
+p{
+    margin: 0;
+    line-height: 24px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* =====================
+style start from here
+========================
+*/
+body{
+    background-color: rgb(20, 160, 7);
+    background-image: radial-gradient(circle, rgba(161, 82, 82, 0) 0%, rgba(167, 1, 15, 0.8) 100%);
+    background-attachment: fixed;
+}
+
+.header_part{
+    border: 1px solid  #32c6e0;
+    padding: 10px;
+    margin-top: 2px;
+    box-shadow: 1px 1px 12px #ffffff, -1px -1px 1px #ffffff;
+}
+.header_part h4{
+    color: #32c6e0;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 23px;
+}
+.datebox{
+    margin-top: 2px;
+    box-shadow: 1px 1px 12px #ffffff, -1px -1px 1px #ffffff;
+}
+.datebox h4{
+    color: aqua;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgb(3, 2, 20);
+    padding: 10px;
+}
+.dateArea{
+    border: 2px solid #000000;
+    padding: 10px;
+    background-color: transparent;
+}
+.dateArea h5{
+    border-bottom: 1px solid #aa5c1b;
+    margin-bottom: 4px;
+    padding-bottom: 7px;
+    color: rgb(228, 193, 150);
+    font-weight: 700;
+    letter-spacing: px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.dateArea h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: chartreuse;
+    letter-spacing: 1px;
+}
+.date-part{
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: rgb(230, 236, 231);
+}
+
+
+
+
+
+
+/*-----------Responsive Area---------*/
+@media only screen and (max-width: 550px){
+    .header_part h4{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 405px){
+    .header_part h4{
+        font-size: 14px;
+    }
+}
